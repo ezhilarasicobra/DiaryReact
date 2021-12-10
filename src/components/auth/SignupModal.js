@@ -77,7 +77,7 @@ class SignupModal extends Component {
     const { msg } = this.state
     return (
       <div>
-        <NavLink onClick={this.toggle} href="#">
+        <NavLink onClick={this.toggle} href="#" style={{color:"#FF652F"}}>
           Signup
         </NavLink>
 

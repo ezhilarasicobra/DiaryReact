@@ -18,7 +18,7 @@ class NewDiary extends Component {
         <Container>
           <Jumbotron fluid>
             <Container fluid>
-              <h1 className="display-3">Encrypted Diary</h1>
+              <h1 className="display-3"> Diary</h1>
               <p className="lead">Login to start!</p>
             </Container>
           </Jumbotron>

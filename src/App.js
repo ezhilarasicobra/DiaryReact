@@ -16,9 +16,9 @@ class App extends Component {
   render () {
     return (
       <Provider store={store}>
-        <div className="App">
+        <div className="App"style={{backgroundColor:"#272727", color:"#FF652F"}} >
           <Router>
-            <BaseRouter />
+            <BaseRouter  style={{backgroundColor:"#272727", color:"#FF652F"}}/>
           </Router>
         </div>
       </Provider>
