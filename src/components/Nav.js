@@ -14,6 +14,7 @@ import SignupModal from './auth/SignupModal'
 import LoginModal from './auth/LoginModal'
 import Logout from './auth/Logout'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 class AppNavbar extends Component {
   state = {
@@ -36,7 +37,9 @@ class AppNavbar extends Component {
     const authLinks = (
       <React.Fragment>
         <NavItem>
-          <NavLink href="/new">New Entry</NavLink>
+          <NavLink>
+            <Link to="/new"> New Entry</Link>
+           </NavLink>
         </NavItem>
         <NavItem>
           <Logout />
